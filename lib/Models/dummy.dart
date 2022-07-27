@@ -22,7 +22,7 @@ const DUMMY_CATEGORIES = const [
   Category(
     id: 'c4',
     title: 'German',
-    color: Colors.amber,
+    color: Colors.amber, ///// hai developvoidhvs0odhvsdhvoshvosihdvo
   ),
   Category(
     id: 'c5',
