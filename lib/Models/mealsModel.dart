@@ -40,6 +40,6 @@ class Meal {
     required this.isGlutenFree,
     required this.isLactoseFree,
     required this.isVegan,
-    required this.isVegetarian,
+    required this.isVegetarian, //testiv0r[igw[ig[igw]pgow[go[wopg[wpgo[wpgo]]]]]]
   });
 }
