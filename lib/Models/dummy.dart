@@ -30,7 +30,7 @@ const DUMMY_CATEGORIES = const [
     color: Colors.blue,
   ),
   Category(
-    id: 'c6',
+    id: 'c6', //grgerger
     title: 'Exotic',
     color: Colors.green,
   ),
