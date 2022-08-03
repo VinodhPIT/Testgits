@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:shop_me/Screens/Filter.dart';
 import 'package:shop_me/Screens/MealsDetail.dart';
 import 'package:shop_me/Screens/Toptab.dart';
 import './Constants.dart';
-
 import './Screens/categories_screen.dart';
 import './Screens/Categorymeals_screen.dart';
 
@@ -27,10 +27,13 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Raleway',
           textTheme: TEXT_THEME_DEFAULT,
         ),
-        home: TopTab(),
+        //  home: TopTab(),
+        initialRoute: '/',
         routes: {
+          '/': (context) => TopTab(),
           "/Category-meals": (context) => Categorymeals(),
-          "/Meals-detail": (context) => Mealsdetail()
+          "/Meals-detail": (context) => Mealsdetail(),
+          "/Filtermeal": (context) => Filtermeal(), /////   hi baby testttt///
         });
   }
 }
