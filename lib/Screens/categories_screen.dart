@@ -15,7 +15,7 @@ class CategoriesScreen extends StatelessWidget {
           maxCrossAxisExtent: 200,
           childAspectRatio: 3 / 4,
           crossAxisSpacing: 10,
-          mainAxisSpacing: 10),
+          mainAxisSpacing: 10), ////okopdkpokdoqkwokpqwpk
     );
   }
 }
